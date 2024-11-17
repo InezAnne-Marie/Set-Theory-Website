@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table of Contents</title>
+    <style>
+        body {
+            background-image: url('sets4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 5rem;
+            color: red;
+            text-align: center;
+            font-family: fantasy;
+        }
+
+        .toc-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .toc-button {
+            background-color: darkorange;
+            color: black;
+            font-size: 20px;
+            font-family: fantasy;
+            text-align: center;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            flex: 1 1 calc(50% - 20px); /* Buttons take up half the row */
+            box-sizing: border-box;
+        }
+
+        .toc-button:hover {
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table of Contents</h1>
+    <div class="toc-container">
+        <a href="intro.html" class="toc-button">1. Introduction</a>
+        <a href="types.html" class="toc-button">2. Types</a>
+        <a href="operations.html" class="toc-button">3. Operations</a>
+        <a href="notation.html" class="toc-button">4. Notation</a>
+        <a href="quiz_intro.html" class="toc-button">Quiz: Introduction</a>
+        <a href="quiz_types.html" class="toc-button">Quiz: Types</a>
+        <a href="quiz_operations.html" class="toc-button">Quiz: Operations</a>
+        <a href="quiz_notation.html" class="toc-button">Quiz: Notation</a>
+    </div>
+</body>
+</html>
